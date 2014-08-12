@@ -32,6 +32,7 @@ $params = array('cas_server_version', 'cas_server_hostname', 'cas_server_port', 
 	);
 
 OCP\Util::addscript('user_cas', 'settings');
+OCP\Util::addStyle('user_cas', 'settings');
 
 if ($_POST) {
 	// CSRF check
